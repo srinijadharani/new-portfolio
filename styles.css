@@ -309,18 +309,25 @@ html,body
   background-size: cover;
 }
 
-@media (max-width: 1000px)
+/* @media (max-width: 1000px)
 {
   #chester-container
   {
     display: none;
   }
-}
+} */
+
+/* @media (min-width: 1000px)
+{
+  .chester-class
+  {
+    display: none;
+  }
+} */
 
 #contact-container
 {
   text-align: center;
-  /* height: 90vh; */
 }
 
 .labels
@@ -378,16 +385,32 @@ input[type=reset]:hover
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 48px;
+  height: 43px;
   background-color: #162447;
+}
+
+@media (max-width: 1000px) 
+{
+  .footer {
+    height: 60px;
+  }
 }
 
 .contact-img
 {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   margin-top: 3px;
   margin-left: 25px;
+}
+
+@media (max-width: 1000px)
+{
+  .contact-img
+  {
+    height: 40px;
+    width: 40px;
+  }
 }
 
 .contact-img:hover
@@ -408,13 +431,13 @@ input[type=reset]:hover
 height: 100vh;
 } */
 
-@media (max-width: 1000px)
+/* @media (max-width: 1000px)
 {
   #game-container
   {
     margin-top: 700px;
   }
-}
+} */
 
 .game {
   text-align: center;
